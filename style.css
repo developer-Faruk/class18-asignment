@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* start header */
+
+.header {
+    background-color: black;
+}
+.header ul{
+    text-align: center;
+    list-style: none;
+}
+.header ul li{
+    display: inline-block;
+    padding: 40px 10px;
+}
+.header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #f9ffff;
+    padding: 0 20px;
+  transition: all 0.3s ease-out;
+
+}
+.header ul li:hover a{
+    color: aqua;
+  transition: all 0.3s ease-out;
+
+   
+    
+}
+/*End header */
+/*start header bottom */
+
+.header-bottom h1 {
+    text-align: center;
+
+}
+.header-bottom {
+    background: #dddddd;
+    padding: 30px 10px;
+}
+
+.baner {
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTDUsGhuQ4I5c787bbWaPv7HNI0bKZ0XSAA&usqp=CAU) no-repeat top center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.menu ul {
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.menu ul li {
+	display: inline-block;
+	background-color: rgb(12, 14, 13);
+	margin: 0 30px;
+    padding: 14px 48px;
+    color: #fff;
+}
+
+.menu ul li h3 {
+	padding: 18px 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menu ul li p {
+	padding: 18px 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menu ul li h4 {
+	padding: 18px 20px;
+
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
+.menu ul li h3::before {
+	content: "\f6af";
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 900;
+	margin-right: 16px;
+	color: #fff;
+	font-size: 18px;
+}
+.menu ul li p::before {
+	content: "\f5d2";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	margin-right: 16px;
+	color: #fff;
+	font-size: 18px;
+}
+.menu ul li p::after {
+	content: "\f5d2";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	margin-left: 16px;
+	color: #fff;
+	font-size: 18px;
+}
+.menu ul li h4::before {
+	content: "\f2a2";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	margin-right: 16px;
+	color: #fff;
+	font-size: 18px;
+}
+
+
+
+/*End header bottom */
+
+
+/*Strar footer */
+.footer {
+    background-color: black;
+    padding: 30px 0;
+}
+.footer ul{
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.footer ul li a{}
+.footer ul li i{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #62a5fd;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
+
+}
+.footer ul li i:hover{
+    background-color: #000000;
+    color: #f9ffff;
+  transition: all 0.3s ease-out;
+
+}
+
+.footer h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	word-spacing: 4px;
+	margin: 14px 0;
+}
+
+/*End footer */
